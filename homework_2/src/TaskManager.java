@@ -221,10 +221,10 @@ public class TaskManager {
             for (int i = 0; i < length; i++) {
                 System.out.print(symbol);
             }
-            System.out.println(); // Переходим на новую строку после отрисовки горизонтальной линии
+            System.out.println();
         } else if (direction.equalsIgnoreCase("vertical")) {
             for (int i = 0; i < length; i++) {
-                System.out.println(symbol); // Печатаем символ в каждой строке для создания вертикальной линии
+                System.out.println(symbol);
             }
         } else {
             System.out.println("Invalid direction. Please specify 'horizontal' or 'vertical'.");
