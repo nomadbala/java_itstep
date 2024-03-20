@@ -31,7 +31,7 @@ public class Test {
 
         Helper<Dog> listOfDogs = new Helper<>();
 
-        List<?> list = new ArrayList<>();
+        List list = new ArrayList<>();
         list.add("sfa");
     }
 }
